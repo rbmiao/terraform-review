@@ -7,6 +7,7 @@ variable "web_server_port" {
 	default = "80"
 }
 
+## ssh port 
 variable "ssh_port" {
 	description = "Port the server will use for SSH login"
 	default = "22"
